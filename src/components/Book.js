@@ -21,7 +21,7 @@ const updateButtonStyle = {
 
 const containerStyle = {
   display: 'flex',
-  border: '0.5px solid #e8e8e8',
+  border: '0.2px solid #e8e8e8',
   backgroundColor: '#fff',
   textTransform: 'none',
 };
