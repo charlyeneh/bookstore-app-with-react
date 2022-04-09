@@ -21,10 +21,8 @@ const updateButtonStyle = {
 
 const containerStyle = {
   display: 'flex',
-  justifyContent: 'space-around',
-  border: '2px solid #e8e8e8',
+  border: '0.5px solid #e8e8e8',
   backgroundColor: '#fff',
-  padding: '2rem',
   textTransform: 'none',
 };
 
@@ -46,14 +44,14 @@ const titleStyle = {
 const categoryStyle = {
   fontSize: '1.3rem',
   color: '#888888',
-  margin: '1rem',
+  marginRight: '1rem',
 };
 
 const progressDescriptionStyle = {
   color: '#888888',
   fontSize: '1.3rem',
   fontStyle: 'normal',
-  margin: '1rem',
+  margin: ' 1rem 0.5rem',
 };
 
 const imageStyle = {
@@ -108,9 +106,9 @@ const Book = (props) => {
   return (
     <div className="book" style={containerStyle}>
       <div>
-        <h1 className="book_category" style={categoryStyle}>{category}</h1>
-        <h1 className="book_title" style={titleStyle}>{title}</h1>
-        <h1 className="book_author" style={authorStyle}>{author}</h1>
+        <h1 className="book-category" style={categoryStyle}>{category}</h1>
+        <h1 className="book-title" style={titleStyle}>{title}</h1>
+        <h1 className="book-author" style={authorStyle}>{author}</h1>
         <div style={buttonContainerStyle}>
           <button type="button" style={buttonStyle}>Comments</button>
           <div style={smallerLineDivStyle} />
@@ -119,7 +117,7 @@ const Book = (props) => {
           <button type="button" style={buttonStyle}>Edit</button>
         </div>
       </div>
-      <div className="progressCircle">
+      <div className="progress-circle">
         <img alt="progress_image" src={`${Image}`} style={imageStyle} />
         <div>
           <p style={progressFontStyle}>{generateRandomPercentile()}</p>

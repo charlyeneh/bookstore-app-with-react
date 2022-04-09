@@ -17,7 +17,7 @@ const fontStyle = {
   padding: '0 2rem',
   fontSize: '1.5rem',
   color: '#888888',
-  width: '22rem',
+  width: '15rem',
   height: '3rem',
 };
 
@@ -80,7 +80,7 @@ const AddBook = () => {
           <option value="Fantasy">Fantasy</option>
           <option value="Horror">Horror</option>
         </select>
-        <button className="add_button" type="submit">ADD BOOK</button>
+        <button className="addbutton" type="submit">ADD BOOK</button>
       </form>
     </div>
   );
