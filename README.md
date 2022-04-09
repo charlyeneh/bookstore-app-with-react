@@ -12,6 +12,7 @@ This is a simple Bookstore App. It can be used to keep track of book.
 - CSS3
 - JavaScript
 - React (CRA)
+- Redux
 
 ## Live Demo (if available)
 
