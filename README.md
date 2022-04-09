@@ -5,7 +5,7 @@ Bookstore App
 
 This is a simple Bookstore App. It can be used to keep track of book.
 
-![screenshot](./images/Screenshot.png)
+![screenshot](./src/images/Screenshot.png)
 ## Built With
 
 - HTML5
