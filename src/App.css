@@ -8,6 +8,7 @@ button {
   background-color: #0290ff;
   height: 2rem;
   color: #fff;
+  border: none;
   font-family: Montserrat, sans-serif;
   font-size: larger;
   display: flex;
