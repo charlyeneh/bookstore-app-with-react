@@ -7,7 +7,6 @@ import Image from '../images/progressCircle.png';
 const buttonStyle = {
   backgroundColor: '#fff',
   color: '#0290ff',
-  border: 'none',
   cursor: 'pointer',
   width: 'auto',
 };
